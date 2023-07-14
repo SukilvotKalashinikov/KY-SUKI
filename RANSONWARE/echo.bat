@@ -1,0 +1,2 @@
+echo "goo"
+pause
